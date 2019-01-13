@@ -1,5 +1,9 @@
 
-"""solutioin"""
+"""
+solutioin
+"""
+
+
 def romanToInt(self, s):
     roman = {'M': 1000,'D': 500 ,'C': 100,'L': 50,'X': 10,'V': 5,'I': 1}
     z = 0
@@ -9,6 +13,7 @@ def romanToInt(self, s):
         else:
             z += roman[s[i]]
     return z + roman[s[-1]]
+
 """
 Note: The trick is that the last letter is always added. 
 Except the last one, if one letter is less than its latter one, this letter is subtracted.
