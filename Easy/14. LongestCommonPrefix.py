@@ -1,3 +1,7 @@
+"""
+solution
+"""
+
 def longestCommonPrefix(strs):
     if not strs:
         return ""
