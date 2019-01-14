@@ -1,3 +1,7 @@
+"""
+solution
+"""
+
 def isValid(s):
     stack = []
     dict = {"]":"[", "}":"{", ")":"("}
