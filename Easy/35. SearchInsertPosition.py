@@ -2,6 +2,13 @@
 solution
 """
 
+def searchInsert(self, nums, target):
+     return len([x for x in nums if x<target])
+    
+"""
+my solution
+"""
+
 def searchInsert(nums, target):
     if target < nums[0]:
         return 0
