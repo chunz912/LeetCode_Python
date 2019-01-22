@@ -1,4 +1,7 @@
-# -*- coding: utf-8 -*-
+"""
+solution
+"""
+
 def CountAndSay(n):
     b='1'   #将第一行的1换成字符类型，便于下一行的读出
     for i in range (n-1):    #(n-1)是因为第一行不需要处理，直接可以读出
