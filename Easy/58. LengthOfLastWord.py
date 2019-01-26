@@ -13,3 +13,12 @@ def lengthOfLastWord(s):
         else:
             continue
     return i+1
+
+"""
+solution
+"""
+def lengthOfLastWord(s): 
+    return len(s.rstrip(' ').split(' ')[-1])
+
+def lengthOfLastWord(s): 
+    return 0 if len(s.split() == 0) else len(s.split()[-1])
